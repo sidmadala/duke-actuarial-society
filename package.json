@@ -1,0 +1,22 @@
+{
+  "name": "duke_actuarial_society",
+  "private": true,
+  "dependencies": {
+    "@rails/actioncable": "^6.0.0",
+    "@rails/activestorage": "^6.0.0",
+    "@rails/ujs": "^6.0.0",
+    "@rails/webpacker": "4.2.2",
+    "bootstrap": "4.3.1",
+    "javascript": "^1.0.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpacker": "^4.6.0",
+    "yarnpkg": "^0.15.1"
+  },
+  "version": "0.1.0",
+  "devDependencies": {
+    "webpack-dev-server": "^3.11.0"
+  }
+}

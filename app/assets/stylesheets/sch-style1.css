@@ -1,0 +1,394 @@
+.sch-title-demo {
+    text-align: center;
+    margin: 50px 0;
+    font-weight: bold;
+}
+#nav-demo-1  .sch-title  i{
+	color:#c53821;
+}
+#nav-demo-1  .sch-title {
+    margin-bottom: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+	font-family: 'Pacifico', cursive;
+}
+#nav-demo-1 .sch-style-light {
+    margin-bottom: 50px;
+}
+#nav-demo-1 .sch-style-light .sch-title {
+	color:#222;
+}
+
+#nav-demo-1 .sch-our-team {
+    width: 250px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#nav-demo-1 .sch-images {
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+}
+
+#nav-demo-1 .sch-effect-img img {
+
+    width: 155px;
+    height: 155px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 20px auto;
+
+}
+
+#sid{
+    background-image: url("/assets/Sid.jpg");
+    background-size: cover;
+}
+
+#priya{
+    background-image: url("/assets/Priya.jpg");
+    background-size: cover;
+}
+
+#Sara{
+    background-image: url("/assets/Sara.png");
+    background-size: cover;
+}
+
+#Bhrij{
+    /* background-image: url("/assets/Bhrij.jpg"); */
+    background-size: cover;
+}
+
+#Zeyu{
+    background-image: url("/assets/Zeyu.jpg");
+    background-size:cover;
+}
+
+#Bliss{
+    background-image: url("/assets/Bliss.jpeg");
+    background-size: cover;
+}
+
+#DASlinkedin{
+    padding-right: 20px;
+    color: white;
+}
+
+#nav-demo-1 .sch-name {
+    font-size: 30px;
+    font-weight: bold;
+    color: #287088;
+    margin-bottom: 10px;
+    border-bottom: 3px solid #287088;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+    line-height: normal;
+}
+
+#nav-demo-1 .sch-job {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: normal;
+}
+
+#nav-demo-1 .sch-description {
+    padding-top:20px;
+    font-size: 20px;
+    line-height: normal;
+    /* margin: 15px -30px 0 -30px; */
+    text-align:left;
+}
+
+#nav-demo-1 .sch-info {
+    margin: 15px -45px 0 -45px;
+    text-align: center;
+    padding-top: 15px;
+    /* padding: 20px; */
+}
+
+#nav-demo-1 #priyaname{
+    margin-top: 20px;
+}
+
+#nav-demo-1 .sch-social {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+
+#nav-demo-1 .sch-social i:nth-child(1) {
+    color: #3b5998;
+    cursor: pointer;
+    transition: all ease-in-out 150ms;
+    border: 1px solid #3b5998;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0;
+    border-radius: 50%;
+}
+
+#nav-demo-1 .sch-style-carousel .owl-nav {
+    display: none;
+}
+
+#nav-demo-1 .sch-style-carousel .owl-dots {
+    text-align: center;
+	margin-top: 30px;
+}
+
+#nav-demo-1 .sch-style-carousel .owl-theme .owl-dots .owl-dot.active span,
+#nav-demo-1 .sch-style-carousel .owl-theme .owl-dots .owl-dot:hover span {
+    background: #287088;
+    border-color: #fff;
+    opacity: 1;
+}
+#nav-demo-1 .sch-style-carousel .owl-theme .owl-dots .owl-dot span {
+    width: 32px;
+    height: 10px;
+    margin: 5px 7px;
+    background: #fff;
+    border: 2px solid #287088;
+    display: block;
+    -webkit-backface-visibility: visible;
+    transition: opacity .2s ease;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+
+#nav-demo-1 .sch-style-light .sch-job,
+#nav-demo-1 .sch-style-light .sch-description {
+    color: #222;
+}
+
+#nav-demo-1 .sch-our-team .sch-effect-img {
+
+    position: relative;
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    color: #efefef;
+    border: 3px solid #246e89;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+#nav-demo-1 .sch-our-team .sch-effect-img:after {
+  content: "";
+  position: absolute;
+  top: 7%;
+  left: 7%;
+  border-radius: 50%;
+  border-top: 1px solid transparent;
+  border-right: 2px solid #246e89;
+  border-bottom: 2px solid transparent;
+  border-left: 2px solid #246e89;
+  width: 85%;
+  height: 85%;
+  transition: border 600ms cubic-bezier(0.785, 0.135, 0.15, 0.86), -webkit-transform 600ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  transition: border 600ms cubic-bezier(0.785, 0.135, 0.15, 0.86), transform 600ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  transition: border 600ms cubic-bezier(0.785, 0.135, 0.15, 0.86), transform 600ms cubic-bezier(0.785, 0.135, 0.15, 0.86), -webkit-transform 600ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+#nav-demo-1 .sch-our-team:hover .sch-effect-img:after {
+  border: 2px solid #246e89;
+  -webkit-transform: rotate(135deg);
+          transform: rotate(135deg);
+}
+
+@media (min-width: 991.5px){
+
+    #nav-demo-1 .sch-our-team #priya {
+
+        position: relative;
+        width: 300px;
+        height: 300px;
+        display: inline-block;
+        margin: 0 auto;
+        text-align: center;
+        color: #efefef;
+        border: 3px solid #246e89;
+        border-radius: 50%;
+        z-index: 2;
+    }
+
+    #nav-demo-1 #priya-image{
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+        width: 300px;
+        height: 300px;
+        margin: 0 auto;
+    }
+
+    #first{
+        margin-left: 13%;
+        margin-right: 25%;
+    }
+    
+    #headingfirst{
+        margin-left:35.8%
+    }
+
+    #blisslinkedin{
+        margin-top: 113px;
+    }
+    
+    /* #bailaslinkedin{
+        margin-top: 34px;
+    } */
+
+    #bailaslinkedin{
+        margin-top:10px;
+    }
+    
+    #sidlinkedin{
+        margin-top: 136px;
+    }
+
+    
+    #nav-demo-1 #priyainfo{
+        margin: 15px -110px 0 -60px;
+        text-align:center;
+        padding-top:15px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px){
+    
+    #nav-demo-1 .sch-our-team {
+        width: 200px;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    #first{
+        margin-left:10%;
+        margin-right: 25%;
+    }
+    
+    #headingfirst{
+        margin-left:34%
+    }
+
+    #nav-demo-1 .sch-name{
+        font-size:18px;
+    }
+
+    #nav-demo-1 .sch-job{
+        font-size:14px;
+    }
+
+	#nav-demo-1 .sch-description {
+        padding-top:20px;
+        font-size: 14px;
+        line-height: normal;
+        text-align:left;
+    }
+    
+    #nav-demo-1 .sch-images {
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+        width: 200px;
+        height: 200px;
+        margin: 0 auto;
+    }
+
+    #nav-demo-1 .sch-our-team .sch-effect-img {
+        position: relative;
+        width: 200px;
+        height: 200px;
+        display: inline-block;
+        margin: 0 auto;
+        text-align: center;
+        color: #efefef;
+        border: 3px solid #246e89;
+        border-radius: 50%;
+        z-index: 2;
+    }
+
+}
+
+@media only screen and (max-width:767px){
+
+    #m{
+        margin-left:24.5%;
+    }
+
+    #headingfirst{
+        margin-left:24.5%
+    }
+
+    #first{
+        margin-left:24.5%;
+    }
+
+    #nav-demo-1 .sch-info {
+        margin: 15px 0 0 0;
+        text-align: center;
+        padding-top: 15px;
+    }
+
+	#nav-demo-1 .col-md-3 {
+        margin-bottom: 30px;
+    }
+
+	#nav-demo-1 .col-md-3:last-child {
+        margin-bottom: 0px;
+    }
+
+    #nav-demo-1 .sch-name{
+        font-size:18px;
+    }
+
+    #nav-demo-1 .sch-job{
+        font-size:14px;
+    }
+    
+    #nav-demo-1 .sch-description {
+        padding-top:20px;
+        font-size: 14px;
+        line-height: normal;
+        text-align:left;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    #nav-demo-1 .sch-images {
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+        width: 200px;
+        height: 200px;
+        margin: 0 auto;
+    }
+
+    #nav-demo-1 .sch-our-team .sch-effect-img {
+
+        position: relative;
+        width: 200px;
+        height: 200px;
+        display: inline-block;
+        margin: 0 auto;
+        text-align: center;
+        color: #efefef;
+        border: 3px solid #246e89;
+        border-radius: 50%;
+        z-index: 2;
+    }
+
+}
